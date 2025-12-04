@@ -1,0 +1,221 @@
+---
+// Portfolio Section
+---
+
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Key <span class="text-gradient">Initiatives</span></h2>
+      <p class="section-subtitle">
+        Recent projects and technical initiatives at ABC Fitness
+      </p>
+    </div>
+
+    <div class="portfolio-grid">
+      <!-- Project 1 -->
+      <article class="project-card">
+        <div class="project-image-gradient project-gradient-1">
+          <div class="project-icon">🚀</div>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">API Gateway Modernization</h3>
+          <p class="project-description">
+            Led the migration to Gravitee API Gateway, modernizing our API management
+            infrastructure for improved scalability, observability, and developer experience.
+            This platform transformation positioned the organization for long-term growth and
+            improved integration capabilities.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Gravitee</span>
+            <span class="tag">API Management</span>
+            <span class="tag">Platform Migration</span>
+            <span class="tag">Scalability</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <div class="project-image-gradient project-gradient-2">
+          <div class="project-icon">⚡</div>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">System Performance Optimization</h3>
+          <p class="project-description">
+            Spearheaded performance optimization initiative focusing on critical API endpoints.
+            Achieved dramatic improvements through query optimization and multi-threaded
+            architecture enhancements. Delivered measurable results in system response times
+            and overall application performance.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Performance Tuning</span>
+            <span class="tag">Multi-threading</span>
+            <span class="tag">SQL Optimization</span>
+            <span class="tag">Architecture</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-image-gradient project-gradient-3">
+          <div class="project-icon">🔗</div>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Partner Integration Platform</h3>
+          <p class="project-description">
+            Designed and implemented webhook integration capabilities enabling seamless
+            connections with partner platforms. Developed comprehensive integration framework
+            with documentation, improving partner ecosystem connectivity and reducing
+            integration time for new partners.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Webhooks</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Integration</span>
+            <span class="tag">Documentation</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project-card">
+        <div class="project-image-gradient project-gradient-4">
+          <div class="project-icon">🛡️</div>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Business Continuity & Resilience</h3>
+          <p class="project-description">
+            Orchestrated comprehensive BC/DR testing and planning initiatives to ensure
+            enterprise-grade system reliability. Led cross-functional teams through disaster
+            recovery validation, infrastructure failover testing, and operational readiness
+            exercises maintaining high availability for mission-critical systems.
+          </p>
+          <div class="project-tags">
+            <span class="tag">BC/DR</span>
+            <span class="tag">High Availability</span>
+            <span class="tag">Load Testing</span>
+            <span class="tag">Infrastructure</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .portfolio-section {
+    background: white;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+  }
+
+  .section-title {
+    margin-bottom: var(--space-md);
+  }
+
+  .section-subtitle {
+    font-size: 1.125rem;
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--space-xl);
+  }
+
+  .project-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    border: 1px solid var(--color-border-light);
+  }
+
+  .project-card:hover {
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-8px);
+  }
+
+  .project-image-gradient {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: var(--transition);
+  }
+
+  .project-gradient-1 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .project-gradient-2 {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  }
+
+  .project-gradient-3 {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  }
+
+  .project-gradient-4 {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  }
+
+  .project-card:hover .project-image-gradient {
+    transform: scale(1.02);
+  }
+
+  .project-icon {
+    font-size: 5rem;
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+  }
+
+  .project-content {
+    padding: var(--space-lg);
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+    color: var(--color-text-dark);
+    margin-bottom: var(--space-md);
+  }
+
+  .project-description {
+    color: var(--color-text);
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+  }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    background: var(--color-bg-alt);
+    color: var(--color-text);
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+      gap: var(--space-lg);
+    }
+  }
+</style>

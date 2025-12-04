@@ -1,0 +1,367 @@
+---
+// Resume Section
+---
+
+<section id="resume" class="resume-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Professional <span class="text-gradient">Journey</span></h2>
+      <p class="section-subtitle">
+        My educational background and professional experience
+      </p>
+    </div>
+
+    <div class="resume-content">
+      <!-- Work Experience -->
+      <div class="resume-category">
+        <div class="category-header">
+          <div class="category-icon">💼</div>
+          <h3 class="category-title">Work Experience</h3>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h4 class="timeline-title">Software Engineering Manager</h4>
+                  <p class="timeline-company">ABC Fitness</p>
+                </div>
+                <span class="timeline-date">June 2022 - Present</span>
+              </div>
+              <p class="timeline-description">
+                Lead multiple engineering teams (onshore and offshore) delivering mission-critical systems
+                for fitness operations nationwide. Drive technical strategy, mentor engineers, and ensure
+                operational excellence across all initiatives.
+              </p>
+              <p class="timeline-description">
+                <strong>Key Achievements:</strong><br/>
+                • Led major API Gateway platform migration, modernizing infrastructure for improved scalability and observability<br/>
+                • Dramatically improved system performance through query optimization and multi-threaded architecture enhancements<br/>
+                • Orchestrated business continuity and disaster recovery initiatives ensuring enterprise-grade reliability<br/>
+                • Successfully managed continuous delivery of production features while maintaining system stability<br/>
+                • Built and scaled global engineering team through strategic recruitment and onboarding initiatives<br/>
+                • Enhanced partner ecosystem through webhook integrations and API improvements<br/>
+                • Led SOC audit compliance efforts ensuring security and regulatory standards
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Team Leadership</span>
+                <span class="tag">API Architecture</span>
+                <span class="tag">Performance Optimization</span>
+                <span class="tag">BC/DR</span>
+                <span class="tag">Mentoring</span>
+                <span class="tag">System Design</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h4 class="timeline-title">Java/Web Developer</h4>
+                  <p class="timeline-company">ABC Fitness</p>
+                </div>
+                <span class="timeline-date">April 2010 - June 2022</span>
+              </div>
+              <p class="timeline-description">
+                Senior developer responsible for designing and implementing scalable web applications
+                and backend services. Specialized in Java Spring framework, RESTful API development,
+                and system integrations.
+              </p>
+              <p class="timeline-description">
+                <strong>Key Achievements:</strong><br/>
+                • Delivered consistent production releases driving product roadmap initiatives for multiple teams<br/>
+                • Led major client platform upgrades providing critical technical support and knowledge transfer<br/>
+                • Architected and implemented complex membership features including reciprocity systems<br/>
+                • Maintained and enhanced enterprise API suite supporting major fitness industry clients<br/>
+                • Mentored junior developers and guided new team members through on-call rotation onboarding<br/>
+                • Modernized legacy daemon systems through multi-threaded architecture conversions
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Framework</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">Oracle</span>
+                <span class="tag">Multi-threading</span>
+                <span class="tag">System Integration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-prior">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content timeline-content-subtle">
+              <p class="timeline-prior-note">
+                <em>Additional work history available upon request</em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="resume-category">
+        <div class="category-header">
+          <div class="category-icon">🎓</div>
+          <h3 class="category-title">Education</h3>
+        </div>
+
+        <div class="education-card">
+          <div class="education-content">
+            <h4 class="education-degree">Degree in Information Technology</h4>
+            <p class="education-school">Harding University</p>
+            <p class="education-details">4 Years Course</p>
+          </div>
+          <span class="education-date">May 2007</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .resume-section {
+    background: white;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+  }
+
+  .section-title {
+    margin-bottom: var(--space-md);
+  }
+
+  .section-subtitle {
+    font-size: 1.125rem;
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .resume-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .resume-category {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .category-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+  }
+
+  .category-icon {
+    font-size: 2.5rem;
+  }
+
+  .category-title {
+    font-size: 1.75rem;
+    color: var(--color-text-dark);
+    margin: 0;
+  }
+
+  /* Timeline Styles */
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--color-border);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+
+  .timeline-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .timeline-prior {
+    padding-bottom: 0;
+  }
+
+  .timeline-content-subtle {
+    background: transparent;
+    border: 1px dashed var(--color-border);
+    padding: var(--space-md);
+    text-align: center;
+  }
+
+  .timeline-content-subtle:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .timeline-prior-note {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+  }
+
+  .timeline-marker {
+    position: absolute;
+    left: -2.5rem;
+    top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background: var(--color-primary);
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px var(--color-primary);
+  }
+
+  .timeline-content {
+    background: var(--color-bg-alt);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    transition: var(--transition);
+  }
+
+  .timeline-content:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateX(8px);
+  }
+
+  .timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: var(--space-md);
+    gap: var(--space-md);
+  }
+
+  .timeline-title {
+    font-size: 1.25rem;
+    color: var(--color-text-dark);
+    margin-bottom: var(--space-xs);
+  }
+
+  .timeline-company {
+    color: var(--color-primary);
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .timeline-date {
+    background: var(--color-primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .timeline-description {
+    color: var(--color-text);
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+  }
+
+  .timeline-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    background: white;
+    color: var(--color-text);
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: 1px solid var(--color-border);
+  }
+
+  /* Education Card */
+  .education-card {
+    background: var(--color-bg-alt);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-md);
+    transition: var(--transition);
+  }
+
+  .education-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+  }
+
+  .education-degree {
+    font-size: 1.25rem;
+    color: var(--color-text-dark);
+    margin-bottom: var(--space-xs);
+  }
+
+  .education-school {
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+  }
+
+  .education-details {
+    color: var(--color-text-light);
+    margin: 0;
+  }
+
+  .education-date {
+    background: var(--color-primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 768px) {
+    .timeline {
+      padding-left: 1.5rem;
+    }
+
+    .timeline-marker {
+      left: -2rem;
+    }
+
+    .timeline-header {
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .timeline-date {
+      align-self: flex-start;
+    }
+
+    .education-card {
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .education-date {
+      align-self: flex-start;
+    }
+  }
+</style>
