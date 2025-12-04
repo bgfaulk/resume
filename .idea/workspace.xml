@@ -1,25 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7611e66f-854a-4efd-b68f-59fe5b531898" name="Default" comment="" />
-    <ignored path="resume_theme_site.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="7611e66f-854a-4efd-b68f-59fe5b531898" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/font/fontawesome-webfont-.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/font/fontawesome-webfont-v=3.2.1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/font/fontawesome-webfont-v=3.2.1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/font/fontawesome-webfont-v=3.2.1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/exterior_front_med.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_behance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_resume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_testimonials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/icons/icon_works.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/lostinthewoods.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/love_apis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/img/unsplash_52b2cfb6647f6_1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/assets/js/smoothscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/exterior_front_med.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_behance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_resume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_testimonials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/icons/icon_works.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/lostinthewoods.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/love_apis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/unsplash_52b2cfb6647f6_1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Portfolio.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Resume.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Skills.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/BaseLayout.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/font/fontawesome-webfont-.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/font/fontawesome-webfont-v=3.2.1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/font/fontawesome-webfont-v=3.2.1.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/font/fontawesome-webfont-v=3.2.1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/font/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/exterior_front_med.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_behance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_dribbble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_resume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_testimonials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/icons/icon_works.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/lostinthewoods.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/love_apis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/img/unsplash_52b2cfb6647f6_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/js/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/assets/js/smoothscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/._Thanks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/._index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/._fonts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/._js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/css/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/css/._bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/css/._font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/css/._main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/font/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/font/._fontawesome-webfont-.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/font/._fontawesome-webfont-v=3.2.1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/font/._fontawesome-webfont-v=3.2.1.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/font/._fontawesome-webfont-v=3.2.1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/font/._fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/fonts/._glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/fonts/._glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/fonts/._glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/fonts/._glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/._header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/._port01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/._port02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/._port03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_behance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_dribbble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_resume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_testimonials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/img/icons/._icon_works.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/js/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/js/._Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/js/._bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Theme/assets/js/._jquery.min.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="resume_theme_site" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -40,28 +183,42 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bgfaulk"
+  }
+}]]></component>
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bgfaulk/resume.git",
+    "accountId": "e433f4fd-4ed4-4b08-a9f4-7970a1e7ade9"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectId" id="36NlXamKHFCHDwXDkGkDScp9hgN" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -116,14 +273,37 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
-    <list size="0" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "updates-to-resume-v1",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/brianfaulk/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -145,7 +325,10 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="7611e66f-854a-4efd-b68f-59fe5b531898" name="Default" comment="" />
       <created>1389030035059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1389030035059</updated>
+      <workItem from="1764854951462" duration="7139000" />
     </task>
     <servers />
   </component>
@@ -172,16 +355,19 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Theme/index.html">
@@ -192,5 +378,12 @@
       </provider>
     </entry>
   </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
 </project>
-

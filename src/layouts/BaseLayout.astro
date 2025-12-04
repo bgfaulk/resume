@@ -1,0 +1,76 @@
+---
+import Navigation from '../components/Navigation.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Brian Faulk - Software Engineering Manager',
+  description = 'Software Engineering Manager with 15+ years of experience leading high-performing teams. Expert in Java, API architecture, system performance optimization, and team leadership at ABC Fitness.'
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="author" content="Brian Faulk" />
+    <link rel="icon" type="image/svg+xml" href="/resume/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>{title}</title>
+  </head>
+  <body>
+    <Navigation />
+    <main>
+      <slot />
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>&copy; {new Date().getFullYear()} Brian Faulk. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  main {
+    padding-top: 70px;
+    min-height: calc(100vh - 140px);
+  }
+
+  .footer {
+    background: var(--color-bg-dark);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .footer-container p {
+    margin: 0;
+    opacity: 0.9;
+  }
+</style>
