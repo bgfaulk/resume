@@ -1,21 +1,24 @@
 # Brian Faulk - Professional Resume Site
 
-A modern, responsive personal resume and portfolio website built with Astro and hosted on GitHub Pages.
+A modern, responsive personal resume and portfolio website built with Next.js and hosted on GitHub Pages.
 
 ## Features
 
-- 🎨 Modern, clean design with smooth animations
-- 📱 Fully responsive (mobile, tablet, desktop)
-- ⚡ Lightning-fast performance with Astro
-- 🎯 Smooth scroll navigation
-- 💼 Portfolio showcase
-- 📧 Contact information
-- 🌐 Deployed on GitHub Pages
+- Modern, clean design with smooth animations
+- Fully responsive (mobile, tablet, desktop)
+- Lightning-fast performance with Next.js static export
+- Smooth scroll navigation
+- Portfolio (Key Initiatives) showcase
+- **Sites I've Built** — dedicated page linking to 501mowing.com, taylorsfieldflowerfarm.com, faulknercountydemocrats.com, sentrahcm.com
+- Contact information
+- Deployed on GitHub Pages
 
 ## Tech Stack
 
-- **Framework**: Astro 5.x
-- **Styling**: Modern CSS with CSS Variables
+- **Framework**: Next.js 16.x (App Router)
+- **UI**: React 19, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
 - **Fonts**: Google Fonts (Inter)
 - **Hosting**: GitHub Pages
 - **Deployment**: GitHub Actions
@@ -23,35 +26,33 @@ A modern, responsive personal resume and portfolio website built with Astro and 
 ## Project Structure
 
 ```
-├── public/                 # Static assets (images, favicon)
-│   └── assets/
-│       └── img/           # Portfolio images
+├── public/                 # Static assets (favicon)
 ├── src/
-│   ├── components/        # Reusable Astro components
-│   │   ├── About.astro
-│   │   ├── Contact.astro
-│   │   ├── Hero.astro
-│   │   ├── Navigation.astro
-│   │   ├── Portfolio.astro
-│   │   ├── Resume.astro
-│   │   └── Skills.astro
-│   ├── layouts/           # Page layouts
-│   │   └── BaseLayout.astro
-│   ├── pages/             # Route pages
-│   │   └── index.astro
-│   └── styles/            # Global styles
-│       └── global.css
-├── .github/
-│   └── workflows/
-│       └── deploy.yml     # GitHub Actions deployment
-└── astro.config.mjs       # Astro configuration
+│   ├── app/                # Next.js App Router
+│   │   ├── layout.tsx
+│   │   ├── page.tsx        # Home (Hero, About, Resume, Skills, Portfolio, Contact)
+│   │   ├── sites/
+│   │   │   └── page.tsx    # Sites I've Built
+│   │   └── globals.css
+│   └── components/
+│       ├── About.tsx
+│       ├── Contact.tsx
+│       ├── Hero.tsx
+│       ├── Navigation.tsx
+│       ├── Portfolio.tsx
+│       ├── Resume.tsx
+│       ├── Sites.tsx
+│       └── Skills.tsx
+├── .github/workflows/
+│   └── deploy.yml          # GitHub Actions deployment
+└── next.config.mjs         # Next.js config (static export, basePath /resume)
 ```
 
 ## Development
 
 ### Prerequisites
 
-- Node.js 18.x or higher
+- Node.js 18.x or higher (20.x recommended)
 - npm or yarn
 
 ### Local Development
@@ -66,7 +67,7 @@ A modern, responsive personal resume and portfolio website built with Astro and 
    npm run dev
    ```
 
-3. Open your browser and navigate to `http://localhost:4321`
+3. Open your browser and navigate to `http://localhost:3000/resume`
 
 ### Build for Production
 
@@ -74,7 +75,7 @@ A modern, responsive personal resume and portfolio website built with Astro and 
 npm run build
 ```
 
-The built site will be in the `dist/` directory.
+The built site will be in the `out/` directory (static export).
 
 ### Preview Production Build
 
@@ -82,45 +83,35 @@ The built site will be in the `dist/` directory.
 npm run preview
 ```
 
+Serves the `out/` directory locally.
+
 ## Deployment
 
 The site is automatically deployed to GitHub Pages when you push to the `master` branch.
 
-### Manual Deployment
-
-If you need to deploy manually:
-
-1. Ensure you have GitHub Pages enabled in your repository settings
-2. Set the source to "GitHub Actions"
-3. Push to the `master` branch or manually trigger the workflow
+1. Ensure GitHub Pages is enabled in the repository settings with source "GitHub Actions"
+2. Push to `master` or manually trigger the workflow
 
 The site will be available at: `https://bgfaulk.github.io/resume`
+
+- Home: `https://bgfaulk.github.io/resume`
+- Sites I've Built: `https://bgfaulk.github.io/resume/sites`
 
 ## Customization
 
 ### Update Content
 
-- **Personal Info**: Edit `src/components/Hero.astro` and `src/components/Contact.astro`
-- **Work Experience**: Update `src/components/Resume.astro`
-- **Skills**: Modify `src/components/Skills.astro`
-- **Portfolio**: Edit `src/components/Portfolio.astro`
-- **About**: Change `src/components/About.astro`
+- **Personal Info**: Edit `src/components/Hero.tsx` and `src/components/Contact.tsx`
+- **Work Experience**: Update `src/components/Resume.tsx`
+- **Skills**: Modify `src/components/Skills.tsx`
+- **Portfolio (Initiatives)**: Edit `src/components/Portfolio.tsx`
+- **Sites**: Edit the `SITES` array in `src/components/Sites.tsx`
+- **About**: Change `src/components/About.tsx`
 
 ### Update Styling
 
-- **Colors & Theme**: Edit CSS variables in `src/styles/global.css`
-- **Component Styles**: Each component has scoped styles in its `.astro` file
-
-### Add New Pages
-
-Create a new `.astro` file in `src/pages/` and it will automatically become a route.
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+- **Theme**: Edit `tailwind.config.ts` and CSS variables in `src/app/globals.css`
+- **Component Styles**: Each component uses Tailwind classes
 
 ## License
 

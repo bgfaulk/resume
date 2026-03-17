@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-secondary: #0ea5e9;
+  --color-accent: #06b6d4;
+  --color-text: #1e293b;
+  --color-text-light: #64748b;
+  --color-text-dark: #0f172a;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  --color-bg-dark: #0f172a;
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
+  --container-max: 1200px;
+  --container-padding: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-[#1e293b] bg-white antialiased;
+  line-height: 1.6;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+}
+
+@layer utilities {
+  .container-custom {
+    max-width: var(--container-max);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+  }
+}
