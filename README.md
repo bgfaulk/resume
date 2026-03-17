@@ -129,6 +129,3 @@ All rights reserved © 2025 Brian Faulk
 ## Contact
 
 - **Email**: briangray42@gmail.com
-- **LinkedIn**: [Brian Faulk](https://www.linkedin.com/in/brian-faulk-35-92-318)
-- **GitHub**: [@bgfaulk](https://github.com/bgfaulk)
-- **Twitter**: [@Briangray_IT](https://twitter.com/Briangray_IT)
